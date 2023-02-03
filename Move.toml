@@ -1,0 +1,20 @@
+[package]
+name = 'aptoplay'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'devnet'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken] 
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'devnet'
+subdir = 'aptos-move/framework/aptos-token'
+
+[addresses] 
+std = "0x1"
+aptos_framework = "0x1"
+aptos_token = "0x3"
+aptoplay = "8eeeb70885f19dbc7cdf71d5dfdfb0853af966e7b48f86b9485378e30c9fcc7e"
+admin_addr = "fdd6af45f96216336904f60764a42ddca7829a1a5769d9060980f03a6a16f484"
+# aptoplay_minter = "0d53018bf8ff5c3e0c35594812e64669df4e0f33afbf42f8fbde82991ddb002d"
